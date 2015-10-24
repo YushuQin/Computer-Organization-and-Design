@@ -1,0 +1,43 @@
+
+#Clock signal
+Net "clk1" loc = "T9";
+
+# 7 segment display
+net "dig_seg[0]" loc = "E14";
+net "dig_seg[1]" loc = "G13";
+net "dig_seg[2]" loc = "N15";
+net "dig_seg[3]" loc = "P15";
+net "dig_seg[4]" loc = "R16";
+net "dig_seg[5]" loc = "F13";
+net "dig_seg[6]" loc = "N16";
+net "dig_seg[7]" loc = "P16";
+net "dig_seg_anode[0]" loc = "D14";
+net "dig_seg_anode[1]" loc = "G14";
+net "dig_seg_anode[2]" loc = "F14";
+net "dig_seg_anode[3]" loc = "E13";
+
+# LEDs
+net "led[0]" loc ="K12";
+net "led[1]" loc ="P14";
+net "led[2]" loc ="L12";
+net "led[3]" loc ="N14";
+net "led[4]" loc ="P13";
+net "led[5]" loc ="N12";
+net "led[6]" loc ="P12";
+net "led[7]" loc ="P11";
+
+# switches
+net "switch[0]" loc ="F12";
+net "switch[1]" loc ="G12";
+net "switch[2]" loc ="H14";
+net "switch[3]" loc ="H13";
+net "switch[4]" loc ="J14";
+net "switch[5]" loc ="j13";
+net "switch[6]" loc ="K14";
+net "switch[7]" loc ="K13";
+# Buttons
+net "button_in[0]" loc = "M13";
+net "button_in[1]" loc = "M14";
+net "button_in[2]" loc = "L13";
+net "button_in[3]" loc = "L14";	
+NET "button_in[3]" CLOCK_DEDICATED_ROUTE = FALSE;
